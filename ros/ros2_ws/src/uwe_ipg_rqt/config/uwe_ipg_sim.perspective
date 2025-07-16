@@ -1,0 +1,223 @@
+{
+  "keys": {},
+  "groups": {
+    "mainwindow": {
+      "keys": {
+        "geometry": {
+          "repr(QByteArray.hex)": "QtCore.QByteArray(b'01d9d0cb00030000000005be0000016f000007500000036d000005be00000194000007500000036d00000000000000000780000005be00000194000007500000036d')",
+          "type": "repr(QByteArray.hex)",
+          "pretty-print": "       o P m     P m          P m"
+        },
+        "state": {
+          "repr(QByteArray.hex)": "QtCore.QByteArray(b'000000ff00000000fd00000001000000030000019300000187fc0100000002fb00000084007500770065005f006900700067005f007200710074005f005f007500770065005f006900700067005f0072006f0062006f0074005f007300740065006500720069006e0067005f006700750069005f005f0031005f005f0055005700450049007000670052006f0062006f0074005300740065006500720069006e00670047005500490000000000ffffffff000001b000fffffffb00000084007500770065005f006900700067005f007200710074005f005f007500770065005f006900700067005f0072006f0062006f0074005f007300740065006500720069006e0067005f006700750069005f005f0032005f005f0055005700450049007000670052006f0062006f0074005300740065006500720069006e00670047005500490100000000000001930000017000ffffff000001930000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720100000000ffffffff0000000000000000')",
+          "type": "repr(QByteArray.hex)",
+          "pretty-print": "                  uwe_ipg_rqt__uwe_ipg_robot_steering_gui__1__UWEIpgRobotSteeringGUI           uwe_ipg_rqt__uwe_ipg_robot_steering_gui__2__UWEIpgRobotSteeringGUI                            6MinimizedDockWidgetsToolbar        "
+        }
+      },
+      "groups": {
+        "toolbar_areas": {
+          "keys": {
+            "MinimizedDockWidgetsToolbar": {
+              "repr": "8",
+              "type": "repr"
+            }
+          },
+          "groups": {}
+        }
+      }
+    },
+    "pluginmanager": {
+      "keys": {
+        "running-plugins": {
+          "repr": "{'uwe_ipg_rqt/uwe_ipg_robot_steering_gui': [1, 2]}",
+          "type": "repr"
+        }
+      },
+      "groups": {
+        "plugin__rqt_msg__Messages__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__messages.ui": {
+              "keys": {
+                "dock_widget_title": {
+                  "repr": "'Message Type Browser'",
+                  "type": "repr"
+                },
+                "dockable": {
+                  "repr": "'true'",
+                  "type": "repr"
+                },
+                "parent": {
+                  "repr": "None",
+                  "type": "repr"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_service_caller__ServiceCaller__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__ServiceCallerWidget": {
+              "keys": {
+                "dock_widget_title": {
+                  "repr": "'Service Caller'",
+                  "type": "repr"
+                },
+                "dockable": {
+                  "repr": "'true'",
+                  "type": "repr"
+                },
+                "parent": {
+                  "repr": "None",
+                  "type": "repr"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "current_service_name": {
+                  "repr": "'/rqt_gui_py_node_36122/describe_parameters'",
+                  "type": "repr"
+                },
+                "splitter_orientation": {
+                  "repr": "'1'",
+                  "type": "repr"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_topic__TopicPlugin__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__TopicWidget": {
+              "keys": {
+                "dock_widget_title": {
+                  "repr": "'Topic Monitor'",
+                  "type": "repr"
+                },
+                "dockable": {
+                  "repr": "'true'",
+                  "type": "repr"
+                },
+                "parent": {
+                  "repr": "None",
+                  "type": "repr"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "tree_widget_header_state": {
+                  "repr(QByteArray.hex)": "QtCore.QByteArray(b'000000ff000000000000000100000000000000050100000000000000000000000620000000010000000500000064000005f4000000060101000100000000000000000600000064ffffffff000000810000000300000006000000b10000000100000003000000f90000000100000003000000680000000100000003000000390000000100000003000003a90000000100000003000000000000000100000003000003e80000000064')",
+                  "type": "repr(QByteArray.hex)",
+                  "pretty-print": "                      d                                                            d"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__uwe_ipg_rqt__uwe_ipg_robot_steering_gui__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__UWEIpgRobotSteeringGUI": {
+              "keys": {
+                "dock_widget_title": {
+                  "repr": "'UWE Robot Steering GUI '",
+                  "type": "repr"
+                },
+                "dockable": {
+                  "repr": "True",
+                  "type": "repr"
+                },
+                "parent": {
+                  "repr": "None",
+                  "type": "repr"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "ackermann_topic": {
+                  "repr": "'/carmaker/cmd'",
+                  "type": "repr"
+                },
+                "velx_max": {
+                  "repr": "5.0",
+                  "type": "repr"
+                },
+                "velx_min": {
+                  "repr": "-5.0",
+                  "type": "repr"
+                },
+                "w_max": {
+                  "repr": "1.0",
+                  "type": "repr"
+                },
+                "w_min": {
+                  "repr": "-1.0",
+                  "type": "repr"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__uwe_ipg_rqt__uwe_ipg_robot_steering_gui__2": {
+          "keys": {},
+          "groups": {
+            "dock_widget__UWEIpgRobotSteeringGUI": {
+              "keys": {
+                "dock_widget_title": {
+                  "repr": "'UWE Robot Steering GUI  (2)'",
+                  "type": "repr"
+                },
+                "dockable": {
+                  "repr": "True",
+                  "type": "repr"
+                },
+                "parent": {
+                  "repr": "None",
+                  "type": "repr"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "ackermann_topic": {
+                  "repr": "'/cmd'",
+                  "type": "repr"
+                },
+                "velx_max": {
+                  "repr": "5.0",
+                  "type": "repr"
+                },
+                "velx_min": {
+                  "repr": "-5.0",
+                  "type": "repr"
+                },
+                "w_max": {
+                  "repr": "1.0",
+                  "type": "repr"
+                },
+                "w_min": {
+                  "repr": "-1.0",
+                  "type": "repr"
+                }
+              },
+              "groups": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

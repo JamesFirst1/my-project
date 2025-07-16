@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>uwe_ipg_rqt</name>
+  <version>0.0.0</version>
+  <description>RQT GUIs for uwe_ipg_sim.</description>
+  
+  <maintainer email="isaac_jordan@hotmail.co.uk">Isaac Jordan</maintainer>
+  
+  <license>Apache-2.0</license>
+  
+  <depend>rclpy</depend>
+  <depend>std_srvs</depend>
+  <depend>ament_index_python</depend>
+  
+  <depend>rqt_gui</depend>
+  <depend>python3-qt5-bindings</depend>
+  
+  <depend>sim_msgs</depend>
+  
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

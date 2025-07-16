@@ -1,0 +1,17 @@
+<library path="src">
+  <class name="uwe_ipg_robot_steering_gui" type="uwe_ipg_rqt.UWEIpgRobotSteeringGUI.UWEIpgRobotSteeringGUI" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A GUI to control steer the car using AckermannDriveStamped messages
+    </description>
+    <qtgui>
+      <group>
+        <label>UWE</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to UWE</statustip>
+      </group>
+      <label>UWE IPG Robot Steering GUI</label>
+      <icon type="theme">utilities-system-monitor</icon>
+      <statustip>Controls the car using AckermannDriveStamped messages</statustip>
+    </qtgui>
+  </class>
+</library>
