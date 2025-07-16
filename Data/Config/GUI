@@ -1,0 +1,9 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = GUI-Config 13.0
+CM.Exe = CarMaker.linux64
+CM.Args =
+CM.Exe.History:
+	CarMaker.linux64
+CM.Args.History:
+	""
+GPUParameters.FName =

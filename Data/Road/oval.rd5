@@ -1,0 +1,112 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = IPGRoad 13.0
+FileCreator = CarMaker Office 13.1.1
+LibVersion = 13.1.1
+Country = GBR
+nLinks = 1
+nJunctions = 1
+nObjects = 95
+nRoutes = 1
+RoadNetworkLength = 162.831853071796
+BBox = -63.851 113.983 -74 54 -11 11
+Route.0.Length = 162.831853071796
+RST.Unit = kmh
+RST = 50 100 130 30 70 30 0 -1
+Movie = 0.2 1 0.01 0 0 0 0
+Movie.TerrainFName = 3D/Terrain/oval.obj
+Visualization.SamplingParams = 0.2 1 0.01
+Visualization.RoadsideWidth = 0 0
+Visualization.RoadsideSlope = 0 0
+Visualization.TerrainFName = 3D/Terrain/oval.obj
+Visualization.MovieNX.RenderMask = 4095
+PathMode = 1
+Terrain.Param = 50 25 25 0 0 0
+Terrain.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+Junction.0.ID = 46
+Junction.0.Type = Direct
+Junction.0.Knot = 0 0 0
+Junction.0.RST = Countryroad
+Junction.0.HMSimple = 0 0 0 0 0 0
+Junction.0.Arm.0.ID = 47
+Junction.0.Arm.0 = 0 0 0 0 0
+Junction.0.Arm.1.ID = 48
+Junction.0.Arm.1 = 0 0 0 0 1
+Junction.0.MainArms = 0 1
+Link.0.ID = 0
+Link.0.Node0 = 0 0 0 0
+Link.0.Node1 = -3.67394039744206e-15 -7.105427357601e-15 0 1.40334185970698e-14
+Link.0.RST = Countryroad
+Link.0.RL.ID = 1
+Link.0.Seg.0.ID = 5
+Link.0.Seg.0.Type = Straight
+Link.0.Seg.0.Param = 15.188 0 0 0 0 0 0 0
+Link.0.Seg.1.ID = 43
+Link.0.Seg.1.Type = Straight
+Link.0.Seg.1.Param = 34.812 0 0 0 0 0 0 0
+Link.0.Seg.2.ID = 44
+Link.0.Seg.2.Type = TurnRight
+Link.0.Seg.2.Param = 10 180 0 0 0 0 0 0
+Link.0.Seg.3.ID = 45
+Link.0.Seg.3.Type = Straight
+Link.0.Seg.3.Param = 50 0 0 0 0 0 0 0
+Link.0.Seg.4.ID = 104
+Link.0.Seg.4.Type = TurnRight
+Link.0.Seg.4.Param = 10 180 0 0 0 0 0 0
+Link.0.LaneSection.0.ID = 6
+Link.0.LaneSection.0.Start = 0
+Link.0.LaneSection.0.LaneL.0.ID = 7
+Link.0.LaneSection.0.LaneL.0 = 0 3 3 0 0 0 0
+Link.0.LaneSection.0.LaneL.0.ARP = 8 9 10 11 12 13
+Link.0.LaneSection.0.LaneL.1.ID = 15
+Link.0.LaneSection.0.LaneL.1 = 0 1 1 4 0 0 0
+Link.0.LaneSection.0.LaneL.1.ARP = 16 17 18 19 20 21
+Link.0.LaneSection.0.LaneL.2.ID = 23
+Link.0.LaneSection.0.LaneL.2 = 0 25 25 5 0 0 0
+Link.0.LaneSection.0.LaneR.0.ID = 24
+Link.0.LaneSection.0.LaneR.0 = 0 1 1 4 0 0 0
+Link.0.LaneSection.0.LaneR.0.ARP = 25 26 27 28 29 30
+Link.0.LaneSection.0.LaneR.1.ID = 32
+Link.0.LaneSection.0.LaneR.1 = 0 25 25 5 0 0 0
+Link.0.LaneSection.1.ID = 105
+Link.0.LaneSection.1.Start = 15.188
+Link.0.LaneSection.1.LaneL.0.ID = 106
+Link.0.LaneSection.1.LaneL.0 = 0 3 3 0 0 0 0
+Link.0.LaneSection.1.LaneL.0.ARP = 107 108 109 110 111 112
+Link.0.LaneSection.1.LaneL.1.ID = 114
+Link.0.LaneSection.1.LaneL.1 = 0 1 1 4 0 0 0
+Link.0.LaneSection.1.LaneL.1.ARP = 115 116 117 118 119 120
+Link.0.LaneSection.1.LaneL.2.ID = 122
+Link.0.LaneSection.1.LaneL.2 = 0 25 25 5 0 0 0
+Link.0.LaneSection.1.LaneR.0.ID = 123
+Link.0.LaneSection.1.LaneR.0 = 0 1 1 4 0 0 0
+Link.0.LaneSection.1.LaneR.0.ARP = 124 125 126 127 128 129
+Link.0.LaneSection.1.LaneR.1.ID = 131
+Link.0.LaneSection.1.LaneR.1 = 0 25 25 5 0 0 0
+Link.0.ElevationProfile.ID = 2
+Link.0.ElevationProfile.Params = 0 0
+Link.0.ElevationProfile:
+	86 -1 15.188 0 0 0 0
+	132 -1 0 1 0 0 0
+Link.0.SlopeProfile.ID = 3
+Link.0.SlopeProfile.Params = 0 0
+Link.0.SlopeProfile:
+	89 -1 15.188 0 0 0 0
+	133 -1 0 1 0 0 0
+Link.0.CamberProfile.ID = 4
+Link.0.CamberProfile.Params = 0 0
+Link.0.CamberProfile:
+	92 -1 15.188 0 0 0 0
+	134 -1 0 1 0 0 0
+LanePath.0 = 14 7 2 10 0.1 0.1 -1 -1
+LanePath.1 = 22 15 0.25 10 0.1 0.1 -1 -1
+LanePath.2 = 31 24 0.25 10 0.1 0.1 -1 -1
+LanePath.3 = 113 106 2 10 0.1 0.1 -1 -1
+LanePath.4 = 121 114 0.25 10 0.1 0.1 -1 -1
+LanePath.5 = 130 123 0.25 10 0.1 0.1 -1 -1
+Route.0.ID = 49
+Route.0.Name = Route_0
+Route.0.DrvPath.ID = 50
+Route.0.DrvPath:
+	113
+	14
+MaxUsedObjId = 134

@@ -1,0 +1,78 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = IPGRoad 13.0
+FileCreator = CarMaker Office 13.1.1
+LibVersion = 13.1.1
+Country = GBR
+nLinks = 1
+nJunctions = 1
+nObjects = 57
+nRoutes = 1
+RoadNetworkLength = 113.56996560552
+BBox = -63.284 83.975 -81.363 56.781 -11 11
+Route.0.Length = 113.56996560552
+RST.Unit = kmh
+RST = 50 100 130 30 70 30 0 -1
+Movie = 0.2 1 0.01 0.5 1 1 1
+Movie.TerrainFName = 3D/Terrain/small_track.obj
+Visualization.SamplingParams = 0.2 1 0.01
+Visualization.RoadsideWidth = 0.5 1
+Visualization.RoadsideSlope = 1 1
+Visualization.TerrainFName = 3D/Terrain/small_track.obj
+Visualization.MovieNX.RenderMask = 4095
+PathMode = 1
+Terrain.Param = 50 25 25 0 0 0
+Terrain.Material.0 = Textures/Ground/Asphalt_01.jpg 0 0 0 0 1 1 1 1 0 0 0
+Junction.0.ID = 52
+Junction.0.Type = Direct
+Junction.0.Knot = 0 0 0
+Junction.0.RST = Countryroad
+Junction.0.HMSimple = 0 0 0 0 0 0
+Junction.0.Arm.0.ID = 53
+Junction.0.Arm.0 = 0 0 0 0 0
+Junction.0.Arm.1.ID = 54
+Junction.0.Arm.1 = 0 0 0 0 1
+Junction.0.MainArms = 0 1
+Link.0.ID = 0
+Link.0.Node0 = 0 0 0 0
+Link.0.Node1 = 0 0 0 0
+Link.0.RST = Countryroad
+Link.0.RL.ID = 1
+Link.0.Seg.0.ID = 5
+Link.0.Seg.0.Type = Straight
+Link.0.Seg.0.Param = 15 0 0 0 0 0 0 0
+Link.0.Seg.1.ID = 43
+Link.0.Seg.1.Type = PointList
+Link.0.Seg.1.Param = 1 0 1 0 0 0 0 0
+Link.0.Seg.1.PointList:
+	44 -1 25.688 3.36
+	45 -1 29.307 -0.946
+	46 -1 2.944 -24.826
+	47 -1 -1.418 -27.383
+	48 -1 -7.586 -23.322
+	49 -1 -7.887 -5.119
+	50 -1 -7.436 -1.66
+	51 -1 0 0
+Link.0.LaneSection.0.ID = 6
+Link.0.LaneSection.0.Start = 0
+Link.0.LaneSection.0.LaneL.0.ID = 7
+Link.0.LaneSection.0.LaneL.0 = 0 3 3 0 0 0 0
+Link.0.LaneSection.0.LaneL.0.ARP = 8 9 10 11 12 13
+Link.0.LaneSection.0.LaneL.1.ID = 15
+Link.0.LaneSection.0.LaneL.1 = 0 1 1 4 0 0 0
+Link.0.LaneSection.0.LaneL.1.ARP = 16 17 18 19 20 21
+Link.0.LaneSection.0.LaneL.2.ID = 23
+Link.0.LaneSection.0.LaneL.2 = 0 25 25 5 0 0 0
+Link.0.LaneSection.0.LaneR.0.ID = 24
+Link.0.LaneSection.0.LaneR.0 = 0 1 1 4 0 0 0
+Link.0.LaneSection.0.LaneR.0.ARP = 25 26 27 28 29 30
+Link.0.LaneSection.0.LaneR.1.ID = 32
+Link.0.LaneSection.0.LaneR.1 = 0 25 25 5 0 0 0
+LanePath.0 = 14 7 2 10 0.1 0.1 -1 -1
+LanePath.1 = 22 15 0.25 10 0.1 0.1 -1 -1
+LanePath.2 = 31 24 0.25 10 0.1 0.1 -1 -1
+Route.0.ID = 55
+Route.0.Name = Route_0
+Route.0.DrvPath.ID = 56
+Route.0.DrvPath:
+	14
+MaxUsedObjId = 56
